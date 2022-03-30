@@ -4,3 +4,10 @@
 - Use docker compose to launch airflow and postgres
 - Schedule the dag
 - Validate entry in postgres
+
+# Kubernetes Task
+
+- Create deployment and service for above airflow and postgres (you can use postgres helm chart for postgres deployment)
+- Deploy airflow and postgres
+- Schedule the dag
+- Validate entry in postgres
